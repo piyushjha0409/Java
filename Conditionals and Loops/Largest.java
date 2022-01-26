@@ -5,17 +5,26 @@ public class Largest {
         Scanner in = new Scanner(System.in);
 
         // taking the input of the three numbers
-        int n = in.nextInt();
-        int p = in.nextInt();
-        int q = in.nextInt();
-        int max = n;
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
+        // int max = 0;
         // Driver code
-        if (p > max) {
-            max = p;
-        }
-        if (q > max) {
-            max = q;
-        }
+        // if (p > max) {
+        //     max = p;
+        // }
+        // if (q > max) {
+        //     max = q;
+        // }
+        // if(a>b){
+        //     max = a;
+        // }else{
+        //     max = b;
+        // }
+        // if(c>max){
+        //     max = c;
+        // }
+        int max = Math.max(c, Math.max(a, b));
         System.out.println("The largest number among these 3 is = "+ max);
         in.close();
 
