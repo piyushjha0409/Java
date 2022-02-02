@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Input {
 
@@ -14,7 +14,7 @@ public class Input {
     }
 
     // printing the array
-    System.out.print(array.toString(arr));
+    System.out.print(Arrays.toString(arr));
 
     scn.close();
   }
