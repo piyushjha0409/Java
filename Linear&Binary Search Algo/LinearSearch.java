@@ -16,12 +16,12 @@ public class LinearSearch {
 
       //function for the linear Search
       // int ans =  LinearSearch(arr,3);
-      int ans = LinearSearch2(arr, 5);
+      int ans = Linear_Search2(arr, 5);
       System.out.println(ans);
       in.close();
     }
 
-    static int LinearSearch(int[] arr, int target){
+    static int Linear_Search(int[] arr, int target){
       if(arr.length == 0){
         return -1;
       }
@@ -38,16 +38,16 @@ public class LinearSearch {
          return -1;
     }
 
-    static boolean LinearSearch2(int[] arr, int target){
+    static int Linear_Search2(int[] arr, int target){
       if(arr.length == 0){
-        return false;
+        return 0;
       }
 
       for (int element : arr) {
         if(element == target){
-          return true;
+          return 1;
         }
       }
-      return false;
+      return 0;
     }
 }
