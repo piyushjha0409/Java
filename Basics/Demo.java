@@ -1,4 +1,3 @@
-
 // public means this class can be access from anywhere
 public class Demo{
  public static void main(String[] args){

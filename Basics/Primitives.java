@@ -10,5 +10,7 @@ public class Primitives {
         double LargeDecimalsNumbr = 5454.326454;
         long LargeIntegers = 451325464L;
         boolean check = false;
+
+        System.out.println(LargeIntegers);
     }
 }
